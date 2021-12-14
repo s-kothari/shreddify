@@ -1,0 +1,76 @@
+
+.Home #main {
+    transition: margin-left .5s;
+    padding-top: 80px;
+    text-align: center;
+    background-color: whitesmoke;
+    height: max-content;
+}
+.Home #main h1 {
+    margin: 0px;
+    font-size: 60px;
+}
+
+.Home #pastworkouts h2 {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+
+.Home #title-h3 {
+    margin-top: 20px;
+}
+
+#past-workouts, #achievements {
+    padding: 30px;
+    background-image: linear-gradient(to bottom right, #778ffc 50%, #37b3e6);
+    color: white;
+    margin: 60px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 10px grey;
+    -webkit-box-shadow: 0 0 10px grey;
+    box-shadow: 0 0 10px grey;
+}
+
+span {
+    font-size:20px;
+    cursor: default;
+}
+#logOutButton {
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: -100px;
+    display: inline;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #ff8c4a, #ff6e6e);
+    text-align: center;
+    vertical-align: center;
+    height:max-content;
+    width:max-content;
+    padding: 6px 10px;
+    border-style: none;
+    color: white;
+}
+#logOutButton:hover {
+    background-image: linear-gradient(to right, #6d87fc, #0da2de);
+    -moz-box-shadow: 0 0 2px grey;
+    -webkit-box-shadow: 0 0 2px grey;
+    box-shadow: 0 0 2px grey;
+    font-size: 20px;
+    padding: 6px 10px;
+}
+
+.achievement {
+    width: max-content;
+    background-image: linear-gradient(to bottom left, #56dd90, #38c3fb);
+    height: max-content;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.achievement h2 {
+    margin: 0px;
+}

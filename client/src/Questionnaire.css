@@ -1,0 +1,252 @@
+/* background of modal */
+.questionnaire-background {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    /*background-color: #ff6b2b;*/
+}
+
+/* actual modal */
+.questionnaire {
+    /*background-color: #FFE4B5;*/
+    background-color: white;
+    height: 80%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 30px;
+    width: 60%;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 15px #ba5834;
+    -webkit-box-shadow: 0 0 15px #ba5834;
+}
+
+.questionnaire h1, h3 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+
+#energy {
+    display: inline;
+    margin-left: 60px;
+}
+
+#time{
+    margin-left: 60px;
+    margin-top:40px;
+}
+
+#targets {
+    margin-left: 60px;
+    margin-top:40px;
+}
+
+#energyp {
+    margin-top: 30px;
+    margin-left: 450px;
+    word-spacing: 100px;
+}
+#energySlider {
+    margin-left: 200px;
+    width: 380px;
+}
+#timep {
+    margin-top: 30px;
+    margin-left: 80px;
+    word-spacing: 50px;
+}
+#timeSlider, #flexibilityp {
+    margin-left: 60px;
+    width: 500px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 10px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #57e695;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #ccc;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#yes {
+    margin-left: 60px;
+    display: inline;
+}
+#no {
+    margin-left: 10px;
+    display: inline;
+}
+
+
+#target {
+    border:none;
+    width: 300px;
+    border-bottom: 2px solid gray;
+    padding: 5px 10px;
+    outline: none;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+#target:focus {
+    border-color: orangered;
+}
+#target:focus::-webkit-input-placeholder {
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+    transition: 0.2s ease-out;
+}
+
+/*.list, .options{
+    margin-left:60px;
+    margin-top: 10px;
+}
+
+.targetArea {
+    border-radius: 5px;
+    background-color: hotpink;
+    color: white;
+    display: inline-block;
+
+    margin-right: 20px;
+    padding: 10px;
+    height: 100%;
+}*/
+
+.options {
+    margin-left:60px;
+    margin-top: 10px;
+}
+
+#targetItem {
+    margin: 0px;
+}
+
+.targetButton {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #ff6969;
+    color: #ff6969;
+    display: inline-block;
+
+    margin-right: 20px;
+    padding: 10px;
+    height: 100%;
+}
+
+.targetButton:active {
+    /*background-color: hotpink;
+    color: white;*/
+}
+
+.questionnaire #go {
+    border: none;
+    background-color: #57e695;
+    color: black;
+    margin-left: 50px;
+    margin-top: 80px;
+    display: inline;
+    height:max-content;
+    width:max-content;
+    padding: 6px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+
+.questionnaire #go:hover {
+    background-color: #0ddb8f;
+}
+
+/* The Close Button */
+.close {
+    font-size: 20px;
+    margin-left: 740px;
+    display: inline;
+    border-radius: 10px;
+    background-color: #ffbea6;
+    text-align: center;
+    vertical-align: center;
+    height:max-content;
+    width:max-content;
+    padding: 6px 10px;
+}
+
+.close:hover {
+    background-color: #ff8254;
+    cursor: pointer;
+}
+
+
+.questionnaire #left{
+    width: 70%;
+}
+.questionnaire #right {
+    width: 30%;
+    display: inline-block;
+}
+.questionnaire #wrapper {
+    margin: 0 auto;
+    display:flex;
+}
+
+.questionnaire h2 {
+    text-align: left;
+    font-size: 20px;
+}
