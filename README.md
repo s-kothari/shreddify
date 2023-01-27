@@ -10,8 +10,10 @@ Staying fit can be tough, especially when it involves having to plan your workou
 Users create accounts that they can log in and out of; accounts keep track of workouts user has completed + their rating of it
 Questionnaire that stores information about user's long-term goals (e.g. body-building, improve skill level at specific sport, strengthen specific muscle groups, lose weight, etc.)
 Daily check-ins (to be completed right before working out) that gauge how long user can work out, how much/what nutrients they are eating, how energetic they're feeling, if there's a specific style of workout they are in the mood for, whether they want a workout they are already familiar with, etc.
-Following the check-in, a workout recommendation is presented (this could be anything from a run to HIIT to yoga to lift) based on responses to questionnaire/check-ins and user ratings with ability for users to see why this workout was presented to them
-Users rate workouts once they are finished with them, stored in database where similarities between user preferences considered in weighting workout ratings when recommending next workout
+Following the check-in, a workout recommendation is presented (this could be anything from a run to HIIT to yoga to lift) based on responses to questionnaire/check-ins and user ratings with ability for users to see why this workout was presented to them.
+
+Users rate workouts once they are finished with them, stored in database where similarities between user preferences considered in weighting workout ratings when recommending next workout.
+
 Collection of average/PR stats to see whether user is stagnating or improving with specific workout routines Main components:
 Storing both user accounts (whose data will be protected) and workouts on graphs with weighted edges so their similarities regarding different metrics can be kept track of easily
 Creating an algorithm to recommend workouts using information from questionnaire, check-ins, and user ratings
